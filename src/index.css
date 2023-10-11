@@ -1,0 +1,37 @@
+
+
+body {
+  background-image: url('./assets/imagenes/fondo.jpg');
+  background-color: #f5f5f5;
+  color: #333;
+  
+}
+
+.container {
+  display: flex;
+  flex-direction: column; /* Apila contenido verticalmente en dispositivos móviles */
+  justify-content: center; /* Centra verticalmente */
+  align-items: center; /* Centra horizontalmente */
+  height: 60vh;
+  text-align: center; /* Centra el texto horizontalmente */
+}
+
+.container-menu {
+  display: block;
+
+  justify-content: right; /* Centra verticalmente */
+  align-items: right; /* Centra horizontalmente */
+  text-align: right; /* Centra el texto horizontalmente */
+}
+
+
+
+/* Establece estilos específicos para dispositivos móviles */
+@media screen and (max-width: 768px) {
+  .container {
+      font-size: 18px; /* Ajusta el tamaño de fuente para dispositivos móviles */
+  }
+  .container-menu{
+    font-size: 18px; /* Ajusta el tamaño de fuente para dispositivos móviles */
+}
+}

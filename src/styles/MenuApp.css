@@ -1,0 +1,169 @@
+/*=========================
+ TEXTO
+ =========================*/
+
+.titulo{
+    font-size: 20px;
+
+}
+.blanco{
+    color: #fff;
+}
+
+.space-1{
+    margin-bottom: 30px;
+}
+
+/*=========================
+ LOGO
+ =========================*/
+
+ .logo{
+    width: 200px;
+    padding: 60px 50px;
+    display: block;
+  }
+
+
+/* Estilos para el círculo */
+.circle {
+    width: 150px; /* Define el ancho del círculo */
+    height: 150px; /* Define la altura del círculo */
+    background-color: #fff; /* Color de fondo del círculo */
+    border-radius: 50%; /* Hace que el div sea circular */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+
+ /*=========================
+ BOTONES
+ =========================*/
+
+ .full-size{
+
+    width: 100%;
+ }
+ .compartirBoton {
+    display: flex;
+    align-items: center; /* Centra verticalmente el contenido */
+    background-color: transparent;
+    border: none;
+    color: #333;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 20px;
+
+ 
+}
+
+/* Agrega estos estilos a tu archivo CSS */
+.cursor {
+    animation: cursor-blink 0.8s infinite alternate;
+  }
+  
+  @keyframes cursor-blink {
+    to {
+      opacity: 0;
+    }
+  }
+
+.compartirBoton:hover {
+    background-color: #00C966; /* Cambia el color de fondo al pasar el cursor sobre el botón */
+    color: #fff;
+}
+
+.compartirEnlace {
+    display: flex;
+    align-items: center; /* Centra verticalmente el contenido */
+    background-color: transparent;
+    border: none;
+    color: #333;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 20px;
+
+ 
+}
+
+.compartirEnlace:hover {
+    background-color: #999999; /* Cambia el color de fondo al pasar el cursor sobre el botón */
+    color: #fff;
+}
+
+.icon-svg {
+    width: 24px; /* Tamaño del icono SVG */
+    height: 24px;
+    margin-right: 10px; /* Espacio entre el ícono y el texto */
+
+}
+
+.span-share {
+    margin-right: 20px;
+    font-size: 16px;
+    
+}
+ 
+  /* Estilo base del botón */
+.custom-button {
+    text-decoration: none;
+    width: 600px;
+    background-color: #ffffff; /* Fondo blanco */
+    border: none; /* Sin borde */
+    color: #333; /* Texto blanco */
+    padding: 10px 20px; /* Espaciado interno */
+    font-size: 14px; /* Tamaño de fuente */
+    cursor: pointer; /* Cursor al pasar por encima */
+    border-radius: 30px;
+    transition: background-color 0.3s, outline 0.3s; /* Transición suave */
+    margin-bottom: 20px;
+}
+
+/* Estilo del botón al pasar el cursor */
+.custom-button:hover {
+    background-color: transparent; /* Fondo transparente */
+    outline: 2px solid #333; /* Borde blanco */
+    border-radius: 30px;
+    color: #fff; /* Texto negro */
+}
+
+/* Estilo para cuando un enlace (hipervínculo) está enfocado */
+.custom-button:focus {
+    color: #fff;
+    
+    outline: 1px solid #333; /* Borde blanco */
+    background-color: #b51f35; /* Fondo transparente */
+    
+
+}
+
+/* Estilo del botón con float a la derecha */
+.custom-menu {
+    background-color: #b51f35;
+    color: #ffffff;
+    padding: 12px 12px 6px 13px;
+    border-radius: 30px;
+    margin-right: 20px;
+    margin-top: 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    float: right; /* Justifica el botón a la derecha */
+}
+
+
+
+
+
+  /* Establece estilos específicos para dispositivos móviles */
+@media screen and (max-width: 768px) {
+    .custom-button{
+        width: 300px;
+    
+       }
+      }
